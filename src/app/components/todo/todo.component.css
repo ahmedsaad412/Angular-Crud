@@ -1,0 +1,20 @@
+.center-div {
+  display: flex;
+  justify-content: center; /* Horizontally center */
+  align-items: center; /* Vertically center */
+  height: 100vh; /* Adjust according to your layout */
+}
+
+.center-content {
+  text-align: center; /* Center text inside div */
+}
+.button-cell {
+  display: flex;
+  gap: 10px; /* Adjust the spacing between buttons */
+  justify-content: center; /* Center buttons horizontally */
+}
+
+/* Optional: If you want buttons to be centered vertically as well */
+.button-cell button {
+  align-self: center;
+}
